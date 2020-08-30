@@ -1,0 +1,44 @@
+body { 
+  background-color: #206A5D;
+  font-family:      Georgia, serif;
+  font-size:        small;
+  margin:           20px;
+} 
+
+section#general{
+    display: table-cell;
+    background-color: #81B214;
+    width: 1%;
+    padding-top: 25px;
+    padding-left: 10px;
+    horizontal-align: right;
+    text-align: center;
+    border-style: double;
+    border-width: 10px;
+}
+
+section#general p{
+	text-align: left;
+}
+
+ section#contact{
+    display: table-cell;
+    background-color: #BFDCAE;
+    width: 20%;
+    padding: 5px;
+    padding-left: 15px;
+    horizontal-align: left;
+    vertical-align: bottom;
+    border-style: solid;
+}
+	
+h1, h2, h3{
+  line-height: 5px; 
+}
+
+section#contact h2{
+  font-size: 120%;
+    padding-top: 200px;
+}
+h1{font-size: 250%;}
+h3{font-size: 70%;}
